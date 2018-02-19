@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Sheets</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='d.css' rel='stylesheet' />
+        <link href='https://fonts.googleapis.com/css?family=Roboto:500,300,400' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+    <div id='mr'>
+      <div id='top'>
+        <div id='bt1'>Google Drive Core Documentation</div>
+        <div id='bt2'>Quick-start guides and common task procedures for Google Docs, Sheets, and Drawings</div>
+        <div id='home'>Home</div>
+      </div>
+      <div id='main'>
+        <div id='mainc'>
+          <div id='mainct'>Select a Google Sheets Documentation Section</div>
+          <div id='maincic'>
+            <div id='moc'>
+              <div id='qs'>
+                <div id='qst'>Quick Start</div>  
+                <div id='qsp'>An introduction to Google Sheets with basic task procedures.</div>
+              </div>
+              <div id='st'>
+                <div id='stt'>Common Tasks</div>
+                <div id='stp'>Procedures for performing additional tasks in Google Sheets.</div>
+              </div>
+            </div>
+            <div id='t2'>Or Choose a Specific Subsection</div>
+            <div id='moc2'>
+              <div id='qs2' style='height:420px;'>
+                <div id='qs2t'>Quick Start</div>
+                <div id='qs2ic'>
+                  <div id='qs2ac'>
+                  <div class='qs2i' id='m1'>Introduction</div>
+                  <div class='qs2i' id='m2'>Interface</div> 
+                  <div class='qs2i' id='m3'>Creating a New Google Sheet</div> 
+                  <div class='qs2i' id='m4'>Accessing Google Sheets</div> 
+                  <div class='qs2i' id='m5'>Sharing Google  Sheets</div> 
+                  <div class='qs2i' id='m6'>Downloading Google Sheets</div>
+                  <div class='qs2i' id='m7'>Printing Google Sheets</div>
+                  <div class='qs2i' id='m8'>Viewing the Version History</div>
+                  <div class='qs2i' id='m9'>Inputting Data</div>
+                  <div class='qs2i' id='m10'>Modifying a Cell's Data</div>
+                  <div class='qs2i' id='m11'>Deleting a Cell's  Data</div>
+                  <div class='qs2i' id='m12'>Graphing Data</div>
+                  </div>
+                </div>
+              </div>  
+              <div id='st2' style='height:420px;'>
+                <div id='st2t'>Common Tasks</div>
+                <div id='st2ic'>
+                  <div id='st2ac'>
+                  <div class='st2i' id='m13'>Creating a 2-Variable Line Chart</div>
+                  <div class='st2i' id='m14'>Creating a 2-Variable Scatter Plot</div>
+                  <div class='st2i' id='m15'>Creating a Pie Chart</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id='bottom'>
+        <div id='bc'>
+          <div id='bct'>Quick Links</div>
+          <div id='bcd'>
+            <div id='bcdt'>Google Docs</div>  
+            <div id='bcdq' >Quick Start</div>
+            <div id='bcds'>
+              <div id='bcdst'>Common Tasks</div>
+              <div class='bcdst' id='navd1'>Creating a Header</div>  
+            <div class='bcdst' id='navd2'>Creating a Footer</div>  
+                <div class='bcdst' id='navd3'>Creating a Hanging Indent</div>  
+                <div class='bcdst' id='navd4'>Inserting an Image</div>  
+                <div class='bcdst' id='navd5'>Adjusting Margins</div>  
+            </div>
+          </div>
+          <div id='bcs'>
+            <div id='bcst'>Google Sheets</div>  
+            <div id='bcsq' >Quick Start</div>
+            <div id='bcss'>
+                <div id='bcsst'>Common Tasks</div>  
+                <div class='bcsst' id='navs1'>Creating a 2-Variable Line Chart</div>
+                <div class='bcsst' id='navs2'>Creating a 2-Variable Scatter Plot</div>
+                <div class='bcsst' id='navs3'>Creating a Pie Chart</div>
+            </div>
+          </div>
+          <div id='bcdr'>
+            <div id='bcdrt'>Google Drawings</div>
+            <div id='bcdrq' >Quick Start</div>
+            <div id='bcdrs'>
+              
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+     <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+            
+
+   <script>
+   $(function(){
+       $('#gd').on('click',function(){
+           location.assign('./d.html');
+       })
+       $('#gs').on('click',function(){
+           location.assign('./s.html');
+       })
+       $('#gdr').on('click',function(){
+           location.assign('./drqs.html');
+       })
+       $('#home').on('click',function(){
+           location.assign('./index.html');
+       })
+       $('#bcdq').on('click',function(){
+           location.assign('./dqs.html');
+       })
+       $('#navd1').on('click',function(){
+           location.assign('./dt.html#did1');
+       })
+       $('#navd2').on('click',function(){
+           location.assign('./dt.html#did2');
+       })
+       $('#navd3').on('click',function(){
+           location.assign('./dt.html#did3');
+       })
+       $('#navd4').on('click',function(){
+           location.assign('./dt.html#did4');
+       })
+       $('#navd5').on('click',function(){
+           location.assign('./dt.html#did5');
+       })
+       $('#bcsq').on('click',function(){
+           location.assign('./sqs.html')
+       })
+      $('#navs1').on('click',function(){
+           location.assign('./st.html#did1');
+       })
+       $('#navs2').on('click',function(){
+           location.assign('./st.html#did2');
+       })
+       $('#navs3').on('click',function(){
+           location.assign('./st.html#did3');
+       })
+        $('#bcdrq').on('click',function(){
+           location.assign('./drqs.html');
+       })
+       //new
+       $('#m1').on('click',function(){
+           location.assign('./sqs.html#intro');
+       })
+       $('#m2').on('click',function(){
+           location.assign('./sqs.html#inter');
+       })
+       $('#m3').on('click',function(){
+           location.assign('./sqs.html#did3');
+       })
+       $('#m4').on('click',function(){
+           location.assign('./sqs.html#did4');
+       })
+       $('#m5').on('click',function(){
+           location.assign('./sqs.html#did5');
+       })
+       $('#m6').on('click',function(){
+           location.assign('./sqs.html#did6');
+       })
+       $('#m7').on('click',function(){
+           location.assign('./sqs.html#did7');
+       })
+       $('#m8').on('click',function(){
+           location.assign('./sqs.html#did8');
+       })
+       $('#m9').on('click',function(){
+           location.assign('./sqs.html#did9');
+       })
+       $('#m10').on('click',function(){
+           location.assign('./sqs.html#did10');
+       })
+       $('#m11').on('click',function(){
+           location.assign('./sqs.html#did11');
+       })
+       $('#m12').on('click',function(){
+           location.assign('./sqs.html#did12');
+       })
+       $('#m13').on('click',function(){
+           location.assign('./st.html#did1');
+       })
+       $('#m14').on('click',function(){
+           location.assign('./st.html#did2');
+       })
+       $('#m15').on('click',function(){
+           location.assign('./st.html#did3');
+       })
+       $('#qs').on('click',function(){
+           location.assign('./sqs.html')
+       })
+       $('#st').on('click',function(){
+           location.assign('./st.html')
+       })
+       
+   })     
+   </script>
+    </body>
+</html>
